@@ -19,3 +19,7 @@ def test_when_input_is_5_should_return_buzz():
 def test_when_input_is_15_should_return_fizzbuzz():
     actual = fizz_buzz(15)
     assert actual == 'FizzBuzz'
+
+def test_when_input_is_6_should_return_fizz():
+    actual = fizz_buzz(6)
+    assert actual == 'Fizz'
