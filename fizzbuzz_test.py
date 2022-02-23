@@ -31,3 +31,11 @@ def test_when_input_10_should_return_buzz():
 def test_when_input_30_should_return_fizzbuzz():
     actual = fizz_buzz(30)
     assert actual == 'FizzBuzz'
+
+def test_when_input_is_1_should_return_1():
+    actual = fizz_buzz(1)
+    assert actual == '1'
+
+def test_when_input_is_2_should_return_2():
+    actual = fizz_buzz(2)
+    assert actual == '2'
