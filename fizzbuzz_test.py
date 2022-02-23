@@ -11,3 +11,11 @@ def fizz_buzz(number):
 def test_when_input_is_3_should_return_fizz():
     actual = fizz_buzz(3)
     assert actual == 'Fizz'
+
+def test_when_input_is_5_should_return_buzz():
+    actual = fizz_buzz(5)
+    assert actual == 'Buzz'
+
+def test_when_input_is_15_should_return_fizzbuzz():
+    actual = fizz_buzz(15)
+    assert actual == 'FizzBuzz'
