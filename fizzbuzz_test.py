@@ -8,6 +8,6 @@ def fizz_buzz(number):
     else:
         return str(number)
 
-def test_fizz_buzz_when_input_is_3_should_return_fizz():
+def test_when_input_is_3_should_return_fizz():
     actual = fizz_buzz(3)
     assert actual == 'Fizz'
